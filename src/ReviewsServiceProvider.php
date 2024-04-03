@@ -2,10 +2,10 @@
 
 namespace AdminKit\Reviews;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use AdminKit\Reviews\Commands\ReviewsCommand;
 use AdminKit\Reviews\Providers\RouteServiceProvider;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class ReviewsServiceProvider extends PackageServiceProvider
 {

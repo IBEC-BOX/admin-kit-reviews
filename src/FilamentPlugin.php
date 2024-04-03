@@ -2,9 +2,9 @@
 
 namespace AdminKit\Reviews;
 
+use AdminKit\Reviews\UI\Filament\Resources\ReviewResource;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
-use AdminKit\Reviews\UI\Filament\Resources\ReviewResource;
 
 class FilamentPlugin implements Plugin
 {

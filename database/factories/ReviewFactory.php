@@ -2,8 +2,8 @@
 
 namespace AdminKit\Reviews\Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use AdminKit\Reviews\Models\Review;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class ReviewFactory extends Factory
 {

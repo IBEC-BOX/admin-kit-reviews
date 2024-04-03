@@ -2,9 +2,9 @@
 
 namespace AdminKit\Reviews\UI\Filament\Resources\ReviewResource\Pages;
 
+use AdminKit\Reviews\UI\Filament\Resources\ReviewResource;
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
-use AdminKit\Reviews\UI\Filament\Resources\ReviewResource;
 
 class EditReview extends EditRecord
 {

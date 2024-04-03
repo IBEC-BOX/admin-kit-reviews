@@ -3,9 +3,9 @@
 namespace AdminKit\Reviews\Models;
 
 use AdminKit\Core\Abstracts\Models\AbstractModel;
+use AdminKit\Reviews\Database\Factories\ReviewFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Spatie\Translatable\HasTranslations;
-use AdminKit\Reviews\Database\Factories\ReviewFactory;
 
 class Review extends AbstractModel
 {
