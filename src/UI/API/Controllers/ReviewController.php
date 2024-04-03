@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace AdminKit\Reviews\UI\API\Controllers;
 
 use AdminKit\Reviews\Models\Review;
-use Spatie\LaravelData\DataCollection;
 use AdminKit\Reviews\UI\API\Data\ReviewData;
+use Spatie\LaravelData\DataCollection;
 
 class ReviewController extends Controller
 {
@@ -15,6 +15,7 @@ class ReviewController extends Controller
         $reviews = Review::query()
             ->latest()
             ->get();
+
         return ReviewData::collection($reviews);
     }
 }

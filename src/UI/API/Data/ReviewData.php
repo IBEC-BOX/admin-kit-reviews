@@ -2,8 +2,8 @@
 
 namespace AdminKit\Reviews\UI\API\Data;
 
-use Spatie\LaravelData\Data;
 use AdminKit\Reviews\Models\Review;
+use Spatie\LaravelData\Data;
 
 class ReviewData extends Data
 {
@@ -12,8 +12,7 @@ class ReviewData extends Data
         public string $author,
         public string $bio,
         public string $photo,
-    )
-    {
+    ) {
     }
 
     public static function fromModel(Review $review): ReviewData
