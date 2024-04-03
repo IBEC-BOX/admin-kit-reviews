@@ -3,11 +3,11 @@
 namespace AdminKit\Reviews\UI\Filament\Resources;
 
 use AdminKit\Core\Forms\Components\TranslatableTabs;
+use AdminKit\Reviews\Models\Review;
+use AdminKit\Reviews\UI\Filament\Resources\ReviewResource\Pages;
 use Filament\Forms;
 use Filament\Resources\Resource;
 use Filament\Tables;
-use AdminKit\Reviews\Models\Review;
-use AdminKit\Reviews\UI\Filament\Resources\ReviewResource\Pages;
 
 class ReviewResource extends Resource
 {

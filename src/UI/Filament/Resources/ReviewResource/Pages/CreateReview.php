@@ -2,8 +2,8 @@
 
 namespace AdminKit\Reviews\UI\Filament\Resources\ReviewResource\Pages;
 
-use Filament\Resources\Pages\CreateRecord;
 use AdminKit\Reviews\UI\Filament\Resources\ReviewResource;
+use Filament\Resources\Pages\CreateRecord;
 
 class CreateReview extends CreateRecord
 {
