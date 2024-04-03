@@ -6,7 +6,12 @@ return [
         'plural_label' => 'Reviews',
 
         'id' => 'ID',
-        'title' => 'Title',
+        'text' => 'Text',
+        'author' => 'Author',
+        'name' => 'Name',
+        'bio' => 'Bio',
+        'bio_placeholder' => 'Ex: author position',
+        'photo' => 'Фото',
 
         'created_at' => 'Created At',
         'updated_at' => 'Updated At',

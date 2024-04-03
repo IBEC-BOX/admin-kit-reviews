@@ -12,7 +12,9 @@ return new class extends Migration
             $table->id();
 
             // add fields
-            $table->jsonb('title')->default('{}');
+            $table->jsonb('text')->default('{}');
+            $table->jsonb('author')->default('{}');
+            $table->jsonb('bio')->default('{}');
 
             $table->timestamps();
         });
