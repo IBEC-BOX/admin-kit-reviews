@@ -15,8 +15,7 @@ class ReviewData extends Data
         public string $author,
         public string $bio,
         public string $photo,
-    ) {
-    }
+    ) {}
 
     public static function fromModel(Review $review): ReviewData
     {

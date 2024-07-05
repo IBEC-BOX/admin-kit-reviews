@@ -2,6 +2,4 @@
 
 namespace AdminKit\Reviews;
 
-class Reviews
-{
-}
+class Reviews {}
