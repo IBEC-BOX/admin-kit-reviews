@@ -45,6 +45,6 @@ class Review extends AbstractModel implements HasMedia
 
     protected static function newFactory(): ReviewFactory
     {
-        return new ReviewFactory();
+        return new ReviewFactory;
     }
 }
