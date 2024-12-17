@@ -40,7 +40,7 @@ class ReviewResource extends Resource
                         ->label(__('admin-kit-reviews::reviews.resource.text'))
                         ->required($locale === app()->getLocale())
                         ->rows(5)
-                        ->maxLength(303),
+                        ->maxLength(500),
                 ])),
             ])
             ->columns(1);
